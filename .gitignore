@@ -1,9 +1,25 @@
+# Dependencies
 node_modules/
-.env
+.pnpm-store/
+
+# Build outputs
 build/
 dist/
-.DS_Store
+.vite/
+
+# Environment files
+.env
+
+# Logs
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
-.pnpm-store/
+
+# macOS
+.DS_Store
+
+# TypeScript
+*.tsbuildinfo
+
+# IDE settings
+.vscode/
